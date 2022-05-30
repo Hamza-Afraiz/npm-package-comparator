@@ -1,0 +1,179 @@
+.comparison-tables {
+  display: flex;
+  flex-direction: row;
+  width: 90%;
+  margin-right: 5%;
+  margin-left: 5%;
+  margin-top: 5%;
+  text-align: center;
+  box-shadow: 5px 5px 5px 5px #94e6c6;
+}
+.comparison-table {
+  width: 40%;
+  display: flex;
+  flex-direction: column;
+  border: 1px solid lightgrey;
+}
+.comparison-table-heading-names {
+  width: 20%;
+  font-weight: 600;
+  display: flex;
+  flex-direction: column;
+  border: 1px solid lightgrey;
+  color: #1890ff !important;
+}
+.comparison-table-heading-names > div {
+  min-height: 60px !important;
+  border: 1px solid lightgrey;
+  text-align: center;
+  font-family: "Poppins", sans-serif;
+  text-align: center !important;
+  padding-top: 15px
+ 
+}
+.comparison-table-heading {
+  background-color: lightgray;
+  font-family: "Poppins", sans-serif;
+  text-align: center;
+}
+.package-links {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  border: 1px solid lightgrey;
+  font-family: "Poppins", sans-serif;
+}
+.comparison-table > div {
+  min-height: 60px !important;
+  border: 1px solid lightgrey;
+  text-align: center;
+  font-family: "Poppins", sans-serif;
+ 
+}
+.comparison {
+  width: 80%;
+  margin-right: 10%;
+  margin-left: 10%;
+}
+.line-chart {
+  margin-top: 10%;
+  padding-bottom: 10%;
+  
+}
+.line-chart > h1{
+  color:#1890ff
+
+}
+.recommendation {
+  height: 100%;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+
+  text-align: left;
+  font-size: 1rem;
+  font-weight: 600;
+  border: 1px solid lightblue;
+  padding: 20px;
+  box-shadow: 5px 10px 8px 10px #94e6c6;
+}
+.recommendation-details {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  font-family: "Poppins", sans-serif;
+  overflow: hidden;
+  min-width: 500px;
+}
+.recommendation-details > p {
+  color: grey;
+}
+h2 {
+  color: #1890ff !important;
+}
+.recommendation-technical-details {
+  width: 50%;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  font-family: "Poppins", sans-serif;
+  min-width: 500px;
+}
+@media screen and (max-width: 790px) {
+  .recommendation-details {
+    max-width: 250px;
+    min-width: 250px;
+  }
+  .recommendation-technical-details {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    font-family: "Poppins", sans-serif;
+    min-width: 250px;
+    max-width: 250px;
+  
+  }
+  .downloads-box {
+    width: 30%;
+    box-shadow: 2px 5px 5px 5px #94e6c6;
+    border-radius: 12px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-width: 170px;
+    margin: 5%;
+  }
+  .comparison-tables {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    margin-right: 0%;
+    margin-left: 0%;
+    margin-top: 5%;
+    text-align: center;
+    box-shadow: 5px 10px 8px 10px #94e6c6;
+  }
+  .comparison-table-heading-names {
+   display: none;
+  }
+  .comparison-table {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    border: 1px solid lightgrey;
+  }
+}
+.downloads-box {
+  width: 30%;
+  box-shadow: 2px 5px 5px 5px #94e6c6;
+  border-radius: 12px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-width: 170px;
+}
+.downloads-box > p {
+  color: #1890ff !important;
+}
+.comparison > h1 {
+  font-family: "Poppins", sans-serif;
+  color: #1890ff !important;
+  border: 1px solid lightblue;
+  padding: 20px;
+  box-shadow: 2px 2px 1px 2px #94e6c6;
+  border-radius: 12px;
+}
+.languages {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+.Tag {
+  color: #1890ff;
+}
